@@ -17,4 +17,4 @@ This is a list of known GOOD, very limited content filtering(illegal items remov
 
 [List of Other GNU/Social Instances here.](http://www.fediverse.org/)
 
-If you would like your instance posted here, please either put in a merge/pull request, or email/contact [mitchell](https://gnusocial.me/stitch) (Email: info@urgero.org) or [archaeme](https://gs.archae.me/archaeme): Email: normandy@firemail.cc
+If you would like your instance posted here, please either put in a merge/pull request, or email/contact [mitchell](https://gnusocial.me/stitchxd) (Email: info@urgero.org).
