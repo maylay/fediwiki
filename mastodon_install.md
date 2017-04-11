@@ -85,6 +85,7 @@ You can run the following in order. If an explination is needed on something it 
 <a name="GetMastodon"></a>
 ## Getting the latest Mastodon code from github
 Now that we have docker installed, we need to get the latest and greatest code from it's github (https://github.com/tootsuite/mastodon/)
+(I have been told that because of Docker - we do not need to do this under a Mastodon user(POSIX user, not an actual Mastodon instance user) so you can run the install commands AS your own user, as long as the user is a part of the docker group!)
 
 So before we continue we need to do the following:
 
