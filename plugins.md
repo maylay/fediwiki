@@ -6,6 +6,8 @@ GNU Social Plugins & Plugins documentation.
   * [ContentFilter](https://github.com/mitchellurgero/WordChanger)
   * [FollowExport](https://github.com/mitchellurgero/FollowExport)
   * [pA Update Checker](https://github.com/mitchellurgero/PaUpdate)
+  * [StaticPages](https://github.com/mitchellurgero/StaticPage)
+  * [AddLinks](https://github.com/mitchellurgero/Qvitter-AddLinks)
   * [Qvitter](https://git.gnu.io/h2p/Qvitter)
   * [QvitterMore](https://github.com/mitchellurgero/qvitter)
   * [QvitterPlus](https://gitgud.io/panjoozek413/qvitterplus/tree/master)
