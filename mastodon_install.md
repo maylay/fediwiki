@@ -360,7 +360,15 @@ You will also want to make sure Mastodon's docker container is online and active
 
 ### Websites SSL Certificate is invalid!
 This is a normal error to see every few months - I am working on putting together another part of this tutorial specifically for this.
-To fix the error in the mean time just follow steps _7_ & _8_ under [Installing Nginx](#InstallNginx)
+To fix the error in the mean time just follow steps _6_ & _7_ under [Installing Nginx](#InstallNginx)
+
+(If any commands fail, try running with "sudo" prepended to them (i.e: "sudo <command>")(Also if the command letsencrypt is not found, it *might* be called certbot so give that a try as well)
+
+1. ```systemctl stop nginx```  (This will stop your web server from serving Mastodon, so make sure your users are aware that your service will be
+down for *about* 10 minutes.)
+2. ```letsencrypt renew``` (This renews your certificate(s))(If any errors here please refer to [certbot user guide](https://certbot.eff.org/docs/using.html)
+3. ```systemctl start nginx``` (Start the web server back up)
+
 
 <a name="NeedHelp"></a>
 ## Need help with your instance?
