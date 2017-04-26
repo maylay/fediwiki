@@ -362,7 +362,7 @@ You will also want to make sure Mastodon's docker container is online and active
 This is a normal error to see every few months - I am working on putting together another part of this tutorial specifically for this.
 To fix the error in the mean time just follow steps _6_ & _7_ under [Installing Nginx](#InstallNginx)
 
-(If any commands fail, try running with "sudo" prepended to them (i.e: "sudo <command>")(Also if the command letsencrypt is not found, it *might* be called certbot so give that a try as well)
+(If any commands fail, try running with "sudo" prepended to them (i.e: "sudo :command:")(Also if the command letsencrypt is not found, it *might* be called certbot so give that a try as well)
 
 1. ```systemctl stop nginx```  (This will stop your web server from serving Mastodon, so make sure your users are aware that your service will be
 down for *about* 10 minutes.)
