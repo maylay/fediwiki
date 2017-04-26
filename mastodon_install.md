@@ -375,6 +375,6 @@ down for *about* 10 minutes.)
 
 <p>You can contact me on <a href="https://github.com/mitchellurgero">GitHub</a>, <a href="https://www.facebook.com/mitchell.urgero">Facebook</a>, <a href="https://m.me/mitchell.urgero">Messenger</a>, <a href="mailto:info@urgero.org">email</a>, or <a href="xmpp://mitchell@gamingzone.space">XMPP</a>.</p>
 
-Or you can contact me @ https://gnusocial.me/stotchxd
+Or you can contact me @ https://gnusocial.me/stitchxd
 
 Or contact the creator of mastodon himself: https://mastodon.social/about/more
