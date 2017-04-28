@@ -1,3 +1,5 @@
+### [Back to home](/)
+
 ## *This guide is for Server Admins only, for user guides please see [this site](http://mastoguide.info)*
 
 

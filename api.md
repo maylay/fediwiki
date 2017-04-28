@@ -1,3 +1,5 @@
+### [Back to home](/)
+
 # API 
 GNU Social API Documentation (XML/JSON/ATOM)
 

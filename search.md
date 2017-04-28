@@ -1,3 +1,5 @@
+### [Back to home](/)
+
 # Search
 
 GNU Social includes a basic search engine that allows for one to search

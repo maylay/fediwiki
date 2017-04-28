@@ -1,3 +1,5 @@
+### [Back to home](/)
+
 # GNU Social Configuration Options 
 (To be edited later)
 

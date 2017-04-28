@@ -1,3 +1,5 @@
+### [Back to home](/)
+
 # Plugins 
 GNU Social Plugins & Plugins documentation.
 
