@@ -111,7 +111,7 @@ Since we are using docker for this, building mastodon is actually pretty straigh
 
 3. Modify the configuration file using your favorite text editor to meet your needs. 
 4. For the application secrets, run the following command 3 times: 
-4. ```docker-compose run --rm web rake secret``` <- MUST HAVE. See notes in _.env.production_ file. [Example config file](https://urgero.org/application/pages/howto/linux/env_config)
+4. ```docker-compose run --rm web rake secret``` <- MUST HAVE. See notes in _.env.production_ file. [Example config file](./env_config)
 > The above command will take time to run the first time, then it will be _MUCH_ faster the second and third time. Also make sure that the 3 secrets in the .env.production file are different. (See that file for details.)
 
 4. Once the configuration is done and dusted run: ```docker-compose build``` to build mastodon.
@@ -137,8 +137,8 @@ nginx is not required here, you COULD use apache - however I have had better per
 4. Now we need to edit a new file that doesn't exist yet: ```nano /etc/nginx/sites-enabled/mastodon```
 > The above command will create and open a new file in nano. 
 
-5. Download the following file and put it's contents inside the above file. [Mastodon nginx configuration](https://urgero.org/application/pages/howto/linux/mastodon)
-> If the above file is not available, you can find the nginx configuration at Masto's [github](https://github.com/tootsuite/mastodon/blob/master/docs/Running-Mastodon/Production-guide.md)
+5. Download the following file and put it's contents inside the above file. [Mastodon nginx configuration](./mastodon_nginx.conf)
+> If the above file is not available, you can find the nginx configuration at Masto's [github](https://github.com/tootsuite/documentation/blob/master/Running-Mastodon/Production-guide.md)
 
 6. Put the following in "/etc/nginx/sites-enabled/mastodon-http" making sure to change example.com. This config will redirect all traffic to port 443 on your server. (SSL)
 <pre>
@@ -162,7 +162,7 @@ server {
 8. Once that is done ```cd ~``` to change back to your home directory.
 9. ```sudo -i``` to login as root of your VPS/Server.
 10. Make a new file called update_mastodon, this file will be used to run updates on the Mastodon serivce. (See [Maintaing Mastodon](#Troubleshooting) for details on how to use.)
-11. Inside that file put the following (Or [download](https://urgero.org/update_masto.sh)):
+11. Inside that file put the following (Or [download](./update_masto.sh)):
 <pre>
 #!/bin/bash
 cd /home/mastodon/mastodon
