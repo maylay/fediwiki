@@ -263,6 +263,17 @@ docker-compose run --rm web rake mastodon:feeds:clear
 ### Updating:
 Updating is pretty simple, just run that update_mastodon script _as root_ you made and it does all of the work for you!
 
+### Sometimes Gargon/Eugen releases a version that requires special commands:
+The simplest way to do this is running the update script and then running the commands he specifies for the particular release in question, this might include:
+```
+docker-compose stop
+docker-compose run --rm web rails db:migrate
+docker-compose run --rm web rails assets:precompile
+docker-compose build
+docker-compose up -d
+```
+Just keep that in mind whilst updating your Mastodon instance!
+
 ### To make an account an admin:
 
 1. ```sudo su - mastodon```
