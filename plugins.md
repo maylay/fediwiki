@@ -4,6 +4,7 @@
 GNU Social Plugins & Plugins documentation.
 
 # List of Known Plugins
+  * [QvitterNotify](https://github.com/mitchellurgero/QvitterNotify)
   * [Armadillo UI](https://github.com/mitchellurgero/armadillo)
   * [GiphyPlugin](https://github.com/mitchellurgero/gs_giphy_plugin)
   * [ContentFilter](https://github.com/mitchellurgero/WordChanger)
