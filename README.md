@@ -15,7 +15,7 @@ at [our repo](https://github.com/mitchellurgero/fediwiki/) ([more info](CONTRIBU
 
 # Other Useful Links 
   * [postActiv documentation](https://www.postactiv.com/docs/)
-  * [GNU Social FAQ](https://karp.id.au/social/en/index.html)
+  * [GNU Social Tutorial & Other Information](https://karp.id.au/social/en/index.html)
   * [GNU Social / postActiv - How to use a queue system](https://blog.shitposter.club/gnu-social-queue-setup.html)
 
 
